@@ -2,7 +2,7 @@
 	
 	'use strict';
 
-	var isMobile = {
+	let isMobile = {
 		Android: function() {
 			return navigator.userAgent.match(/Android/i);
 		},
@@ -23,8 +23,8 @@
 		}
 	};
 
-	
-	var fullHeight = function() {
+
+	let fullHeight = function() {
 
 		if ( !isMobile.any() ) {
 			$('.js-fullheight').css('height', $(window).height());
@@ -35,25 +35,25 @@
 	};
 
 	// Parallax
-	var parallax = function() {
+	let parallax = function() {
 		$(window).stellar();
 	};
 
-	var contentWayPoint = function() {
-		var i = 0;
+	let contentWayPoint = function() {
+		let i = 0;
 		$('.animate-box').waypoint( function( direction ) {
 
 			if( direction === 'down' && !$(this.element).hasClass('animated-fast') ) {
-				
+
 				i++;
 
 				$(this.element).addClass('item-animate');
 				setTimeout(function(){
 
 					$('body .animate-box.item-animate').each(function(k){
-						var el = $(this);
+						let el = $(this);
 						setTimeout( function () {
-							var effect = el.data('animate-effect');
+							let effect = el.data('animate-effect');
 							if ( effect === 'fadeIn') {
 								el.addClass('fadeIn animated-fast');
 							} else if ( effect === 'fadeInLeft') {
@@ -67,56 +67,25 @@
 							el.removeClass('item-animate');
 						},  k * 100, 'easeInOutExpo' );
 					});
-					
+
 				}, 50);
-				
+
 			}
 
 		} , { offset: '85%' } );
 	};
 
-
-
-	var gototop = function() {
-
-		$('.js-gotop').on('click', function(event){
-			
-			event.preventDefault();
-
-			$('html, body').animate({
-				scrollTop: $('html').offset().top
-			}, 500, 'easeInOutExpo');
-			
-			return false;
-		});
-
-		$(window).scroll(function(){
-
-			var $win = $(window);
-			if ($win.scrollTop() > 200) {
-				$('.js-top').addClass('active');
-			} else {
-				$('.js-top').removeClass('active');
-			}
-
-		});
-	
-	};
-
 	// Loading page
-	var loaderPage = function() {
+	let loaderPage = function() {
 		$(".loader").fadeOut("slow");
 	};
 
-	
+
 	$(function(){
 		contentWayPoint();
-		gototop();
 		loaderPage();
 		fullHeight();
 		parallax();
-		// pieChart();
-		skillsWayPoint();
 	});
 
 
