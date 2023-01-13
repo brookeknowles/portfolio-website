@@ -3,7 +3,7 @@ export default [
         date: 'Nov 2022 - Present',
         title: 'Flight Analysis Intern',
         company: 'Rocket Lab',
-        details: 'Currently interning at Rocket Lab, working with a team of engineers on the design and development of flight analysis software. So far I have written python scripts to analyse flight data, and developed GUI applications with a Python backend, and a Qt/QML frontend.',
+        details: 'Currently interning at Rocket Lab, working with a team of engineers on the design and development of flight analysis software. So far I have written Python scripts to analyse flight and weather data, as well as developed GUI applications with a Python backend, and a Qt/QML/JavaScript frontend.',
     }, 
     {
         date: 'Nov 2021 - Feb 2022',

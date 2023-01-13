@@ -10,9 +10,17 @@ function Intro(){
             >
                 I am a final year student at the University of Auckland, finishing off my Bachelor of Engineering (Honours) 
                 degree, specialised in Computer Systems Engineering. <br /> <br />
-                On this website you can check out some of my projects done both for university and for my own personal enjoyment,
+                On this website you can check out some of my projects (mostly personal projects, but a couple from university too),
                 as well as my professional work history. If you make it to the end of the page, feel free to reach out!
             </p>
+            <a href="path to cv goes here" download>
+                <button
+                    className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded"
+                    type="button"
+                >
+                    Download my CV
+                </button>
+            </a>
         </div>
     )
 }
