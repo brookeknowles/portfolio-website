@@ -13,9 +13,9 @@ function Intro(){
                 On this website you can check out some of my projects (mostly personal projects, but a couple from university too),
                 as well as my professional work history. If you make it to the end of the page, feel free to reach out!
             </p>
-            <a href="path to cv goes here" download>
+            <a href="/assets/BrookeCV_2023.pdf" download>
                 <button
-                    className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded"
+                    className="bg-zinc-900 hover:bg-zinc-500 text-white font-bold py-2 px-4 border border-zinc-500 rounded"
                     type="button"
                 >
                     Download my CV
