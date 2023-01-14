@@ -13,7 +13,7 @@ function Intro(){
                 On this website you can check out some of my projects (mostly personal projects, but a couple from university too),
                 as well as my professional work history. If you make it to the end of the page, feel free to reach out!
             </p>
-            <a href="/assets/BrookeCV_2023.pdf" download>
+            <a href="assets/BrookeCV_2023.pdf" download>
                 <button
                     className="bg-zinc-900 hover:bg-zinc-500 text-white font-bold py-2 px-4 border border-zinc-500 rounded"
                     type="button"
