@@ -1,12 +1,15 @@
 # Portfolio Website
 
-## TODO figure out why this isnt deploying to GH pages properly 
+This is my portfolio website, with some of my projects and relevant work history.
 
-This is my portfolio website, with some of my projects and relevant work history. 
+Currently deployed here on GitHub Pages.
+https://brookeknowles.github.io/portfolio-website/
 
-Made with React JS, Tailwind CSS, and Vite. 
+Made with JavaScript, React, Tailwind CSS, and Vite.
 
 ### Setup
 To start the development server:
-
 `npm run dev`
+
+To deploy to GH Pages: 
+`npm run deploy`
