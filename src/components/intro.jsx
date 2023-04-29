@@ -8,8 +8,9 @@ function Intro(){
             <p 
                 className="text-small max-w-xl mb-6 font-bold"
             >
-                I am a final year student at the University of Auckland, finishing off my Bachelor of Engineering (Honours) 
-                degree, specialised in Computer Systems Engineering. <br /> <br />
+                I am currently working full-time at inMusic as an Automated Test Engineer, where I am developing automated tests using JS/TS and QML. 
+                In my free time I am working on completing the last couple papers of my computer enginering degree at the University of Auckland! 
+                <br /> <br />
                 On this website you can check out some of my projects (mostly personal projects, but a couple from university too),
                 as well as my professional work history. If you make it to the end of the page, feel free to reach out!
             </p>

@@ -1,9 +1,15 @@
 export default [
     {
-        date: 'Nov 2022 - Present',
+        date: 'March 2023 - Present',
+        title: 'Automated Test Engineer',
+        company: 'inMusic',
+        details: 'Here at inMusic I am working on the automated test suite and framework for the Engine DJ desktop application and embedded OS. I develop automation software in JavaScript/TypeScript and QML, to aid in decreasing the manual test workload.',
+    }, 
+    {
+        date: 'Nov 2022 - Feb 2023',
         title: 'Flight Analysis Intern',
         company: 'Rocket Lab',
-        details: 'Currently interning at Rocket Lab, working with a team of engineers on the design and development of flight analysis software. So far I have written Python scripts to analyse flight and weather data, as well as developed GUI applications with a Python backend, and a Qt/QML/JavaScript frontend.',
+        details: 'Worked with a team of engineers on the design and development of flight analysis software. I wrote Python scripts to analyse flight and weather data, as well as developed GUI applications with a Python backend, and a Qt/QML/JavaScript frontend.',
     }, 
     {
         date: 'Nov 2021 - Feb 2022',
